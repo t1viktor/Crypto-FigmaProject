@@ -1,4 +1,4 @@
-# CRYPTOCrypto® - UI Kit V1.5 (Community)
+# Crypto® - UI Kit V1.5 (Community)
 
 <table>
   <tr>
