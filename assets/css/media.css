@@ -1,0 +1,454 @@
+@media (min-width: 1024px) {
+
+    :root {
+        --neutra-01: #fff;
+        --neutra-02: #000;
+        --neutra-03: #211d28;
+        --neutra-04: #efefff;
+
+        --primario-01: #9a4dff;
+        --primario-02: #ffa7ff;
+        --primario-03: #E990FF;
+        --primario-04: #CF7AFF;
+        --primario-05: #B563FF;
+        --primario-06: #7F35FF;
+        --primario-07: #6218FF;
+        --primario-08: #2B1254;
+        --primario-09: #110619;
+
+        --secundaria-01: #F600DD;
+        --secundaria-02: #ff86ff;
+        --secundaria-03: #ff6cff;
+        --secundaria-04: #FF4FFF;
+        --secundaria-05: #FF2DF4;
+        --secundaria-06: #DD00C6;
+        --secundaria-07: #C400B0;
+        --secundaria-08: #AC009A;
+        --secundaria-09: #940085;
+    }
+
+    #Download {
+        width: 100%;
+    }
+
+    .conteudoMenu {
+        position: fixed;
+        right: 60px;
+
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 80px;
+        padding: 24px 42px 24px 32px;
+        position: fixed;
+        z-index: 2000;
+        /*  background-color: #2b12540e;
+        backdrop-filter: blur(3px); */
+    }
+
+    h1 {
+
+        font-size: 54px;
+        font-weight: 900;
+        line-height: 64px;
+        padding-left: 149px;
+        padding-top: 80px;
+        margin-left: -66vw;
+
+    }
+
+    .sec-01 {
+        margin-bottom: 200px;
+    }
+
+    .sec-01 div {
+        display: flex;
+        flex-direction: row;
+        padding-left: 149px;
+        cursor: pointer;
+        margin-left: -60vw;
+    }
+
+    .sec-01 div img {
+        transition: all .3s ease-in-out;
+    }
+
+    .sec-01 div img:hover {
+        transform: translateY(-2px);
+        opacity: 0.7;
+    }
+
+    .coinTop {
+        display: none;
+    }
+
+    .coinRight {
+        display: none;
+    }
+
+    .luzcoin {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .imgDesk {
+        display: block;
+    }
+
+    #coinTopDesk {
+        position: absolute;
+        z-index: 100;
+        width: 192.16px;
+        height: 178.16px;
+        top: 6.41px;
+        left: 621.18px;
+        gap: 0px;
+    }
+
+    #coinRightDesk {
+        position: absolute;
+        z-index: 10;
+        width: 233.69px;
+        height: 264.79px;
+        top: 401px;
+        right: 0;
+    }
+
+    #coinLeftDesk {
+        position: absolute;
+        left: 0;
+        z-index: 10;
+        width: 200px;
+        height: 274.61px;
+        top: 360px;
+        left: 0;
+    }
+
+    .imgMainDesk {
+        display: block;
+        position: absolute;
+        top: 14%;
+        right: 8%;
+        height: 600px;
+        z-index: 1000;
+    }
+
+    #stripeDesk {
+        position: absolute;
+        top: 90vh;
+        z-index: 2000;
+    }
+
+    #imgCardMain {
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        position: absolute;
+        top: 82vh;
+        right: 35.5%;
+        border: solid 2px var(--neutra-03);
+        z-index: 9999;
+        transform: rotate(-10deg);
+    }
+
+    #verificado {
+        height: 26px;
+        width: 26px;
+        border-radius: 50%;
+        position: absolute;
+        top: 86.8vh;
+        right: 35%;
+        z-index: 9999;
+        transform: rotate(-10deg);
+    }
+
+    .conteudoMenu {
+        display: flex;
+    }
+
+    .conteudoMenu ul {
+        display: flex;
+        gap: 32px;
+        color: white;
+    }
+
+    .conteudoMenu li {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+
+    .stripeTop {
+        display: none;
+    }
+
+    .stripeBot {
+        display: none;
+    }
+
+    .header-sec-02 {
+        width: 470px;
+    }
+
+    .filters button {
+        transition: all .3s ease-in-out;
+    }
+
+    .filters button:hover {
+        border: solid 1px var(--primario-01);
+        cursor: pointer;
+        padding: 4px 20px;
+    }
+
+    .trending-category {
+        display: flex;
+        gap: 30%;
+        width: 100vw;
+        margin-left: 149px;
+
+    }
+
+
+    .top-sec-03 {
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+    }
+
+    .thisweek {
+        width: 135px;
+        display: flex;
+        flex-direction: row;
+        transition: all .3s ease-in-out;
+    }
+
+    .thisweek:hover {
+        border: solid 2px var(--primario-06);
+        cursor: pointer;
+    }
+
+    .perfil {
+        width: 80vw;
+        transition: all .2s ease-in-out;
+    }
+
+    .perfil:hover {
+        background-color: #b663ff17;
+        cursor: pointer;
+    }
+
+    .sec-04 {
+        background-image: url(/assets/img/subscribeBackground.png);
+    }
+
+    #topSubDesk {
+        position: absolute;
+        top: 398vh;
+        border-radius: 50%;
+        border: solid 3px var(--neutra-03);
+        transform: rotate(20deg);
+    }
+
+    #leftSubDesk {
+        position: absolute;
+        top: 424vh;
+        left: 16%;
+        border-radius: 50%;
+        border: solid 3px var(--primario-04);
+        transform: rotate(-5deg);
+    }
+
+    #rightSubDesk {
+        position: absolute;
+        top: 415vh;
+        right: 20%;
+        border-radius: 50%;
+        border: solid 3px rgb(112, 211, 241);
+        transform: rotate(20deg);
+    }
+
+    #botLeftSubDesk {
+        position: absolute;
+        top: 450vh;
+        left: 30px;
+        border-radius: 50%;
+        border: solid 3px rgb(104, 152, 224);
+        transform: rotate(-25deg);
+    }
+
+    #centerBotSubDesk {
+        position: absolute;
+        top: 465vh;
+        left: 30%;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: solid 3px var(--neutra-03);
+        transform: rotate(5deg);
+    }
+
+    #centerRightBotSub {
+        position: absolute;
+        top: 465vh;
+        right: 30%;
+        border-radius: 50%;
+        border: solid 3px var(--primario-04);
+        transform: rotate(20deg);
+    }
+
+    #rightCenterSub {
+        position: absolute;
+        top: 440vh;
+        right: 5%;
+        border-radius: 50%;
+        border: solid 3px var(--primario-06);
+        transform: rotate(-20deg);
+    }
+
+
+    .card img {
+        width: 326px;
+        height: 534px;
+    }
+
+    .subimg {
+        display: none;
+    }
+
+
+    .sec-04 h2 {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 56px;
+        text-align: center;
+
+    }
+
+    .sec-05 ul,
+    .sec-05 h2 {
+        margin-left: 149px;
+        margin-right: 149px;
+        width: 80vw;
+    }
+
+    details {
+        width: 100%;
+    }
+
+    .sec-02,
+    .sec-03,
+    .sec-05 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    @keyframes section {
+        0% {
+            transform: translateY(-10vh);
+
+        }
+
+        70% {
+            transform: translateY(10vh);
+        }
+
+        100% {
+            transform: translateY(0vh);
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logoFooter {
+        width: 208.76px;
+        height: 60px;
+    }
+
+    .footerSocial {
+        margin-right: 30%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 148px;
+    }
+
+    footer ul {
+
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        width: 400px;
+
+    }
+
+    footer ul li{
+        transition: all .3s ease-in;
+    }
+
+    footer ul li:hover{
+        cursor: pointer;
+        opacity: 0.7;
+        color: var(--primario-02);
+    }
+
+    .social li{
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+    }
+
+    .social li:hover{
+        transform: scale(1.05);
+        opacity: 0.7;
+    }
+
+    .cards-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .cardsNFT {
+        display: flex;
+        cursor: grab;
+        transition: transform 0.3s ease;
+    }
+
+    .card {
+        margin: 5px;
+        flex-shrink: 0;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        -webkit-user-drag: none;
+    }
+
+
+    .coinCollectors{
+        display: none;
+    }
+
+
+
+}
